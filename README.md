@@ -53,9 +53,28 @@ optional arguments:
 
 __Examples of use__
 
-<pre>gecosws-chef-snitch-client --get-active // show if active is 'true' or 'false'
+<pre>
+gecosws-chef-snitch-client --get-active // show if active is 'true' or 'false'
 gecosws-chef-snitch-client --set-active true // set active to 'true'
 gecosws-chef-snitch-client --get-message // show the latest notified message
 gecosws-chef-snitch-client --set-message "Deliver this message" // deliver the double-quoted message to the service
 </pre>
+
+Installation
+------------
+
+<pre>
+./autogen.sh
+./configure
+make
+make install
+</pre>
+
+Contributing
+------------
+
+1.  Fork the repository on Github
+2.  Create a named feature branch (like `add_component_x`)
+3.  Write your change
+4.  Submit a Pull Request using Github
 
