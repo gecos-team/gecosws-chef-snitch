@@ -1,0 +1,28 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex Guadalinfo Cloud
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: gecosws-chef-snitch
+
+# Autor 
+author: Javier Hernández <jhernandez@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "GECOS Chef Snitch."
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "GECOS Chef Snitch Service and command-line client."
+
+# Versión del paquete
+version: 1.0
+
+# Cambios en esta versión
+changes:
+    - Initial release
+
