@@ -1,6 +1,3 @@
-# YAML 1.1
-# Fichero de configuración de paquetes de personalización de Guadalinex Guadalinfo Cloud
-
 # Nombre del paquete (minúsculas-separado-con-guiones)
 name: gecosws-chef-snitch
 
