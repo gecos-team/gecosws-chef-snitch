@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=GECOS Chef Snitch Systray
+Comment=GECOS Chef Snitch Systray icon
+Exec=gecos-chef-snitch-systray
+Terminal=false
+NoDisplay=true
