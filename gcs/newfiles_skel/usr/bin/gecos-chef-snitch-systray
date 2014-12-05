@@ -147,6 +147,7 @@ class ChefSnitchSystray:
     def message_notified_cb(self):
         message = self.get_message()
         print ("A new message has been delivered: %s" % (message))
+        self.notify("GECOS Chef notification", message)
 
     # Simple notifications
     # If you want to add actions:
