@@ -79,7 +79,7 @@ class ChefSnitchSystray:
 
         menu = gtk.Menu()
 
-        update = gtk.MenuItem("Actualizar")
+        update = gtk.MenuItem("Synchronize with Control Center")
         idsudo = grp.getgrnam('sudo').gr_gid
             if idsudo in os.getgroups():
                 update.show()
