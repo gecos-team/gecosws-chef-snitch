@@ -80,7 +80,9 @@ class ChefSnitchSystray:
         menu = gtk.Menu()
 
         update = gtk.MenuItem("Actualizar")
-        update.show()
+        idsudo = grp.getgrnam('sudo').gr_gid
+            if idsudo in os.getgroups():
+                update.show()
         menu.append(update)
         update.connect("activate", self.__trigger_update)
 
